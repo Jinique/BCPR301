@@ -1,8 +1,6 @@
 from autopep8 import fix_file
 from os.path import abspath
 
-
-# Created by Jignesh
 class Pep8Formatter:
     @staticmethod
     def format_pep8(file_path):

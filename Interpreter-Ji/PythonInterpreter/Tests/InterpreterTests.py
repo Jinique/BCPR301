@@ -5,7 +5,7 @@
 # Testing default values
 >>> cmd = Interpreter('Jignesh')
 >>> print(cmd.intro)
-Hi Jignesh Welcome to                     the Interpreter. Type help or ? to list commands.
+Hi Jignesh Welcome to the Interpreter. Type help or ? to list commands.
 <BLANKLINE>
 >>> print(cmd.output_path)
 None
@@ -55,7 +55,7 @@ Data for  DataExtractor  class.
 >>> cmd.do_generate("")
 Valid options not provided. Use "help generate" command
 >>> cmd.do_generate("c")
-No data available to generate                diagram. Use "extract" command to extract data first
+No data available to generate diagram. Use "extract" command to extract data first
 >>> cmd.do_extract('-f -../DataExtractor.py')
 >>> cmd.output_path = './class.png'
 >>> cmd.do_generate("c")
