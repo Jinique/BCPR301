@@ -1,0 +1,19 @@
+class Attribute(Methods):
+
+    def __init__(self):
+        self.name -> str =  # ToDo
+    self.type -> str =  # ToDo
+   self.all_my_Attributes = []
+
+
+
+    def find_type(self, new_type) -> string:
+        # ToDo
+        pass
+
+
+
+
+  def __str__(self) -> string:
+        # ToDo
+        pass
