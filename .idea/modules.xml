@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../../BCPR301-master/.idea/BCPR301-master.iml" filepath="$PROJECT_DIR$/../../BCPR301-master/.idea/BCPR301-master.iml" />
-      <module fileurl="file://$USER_HOME$/Desktop/PycharmProjects/Interpreter-Jig/.idea/Interpreter-master.iml" filepath="$USER_HOME$/Desktop/PycharmProjects/Interpreter-Jig/.idea/Interpreter-master.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../Interpreter-Jig/.idea/Interpreter-master.iml" filepath="$PROJECT_DIR$/../../Interpreter-Jig/.idea/Interpreter-master.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/interpreter v 2.1.iml" filepath="$PROJECT_DIR$/.idea/interpreter v 2.1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../interpreter v2.0/.idea/interpreter v2.0.iml" filepath="$PROJECT_DIR$/../interpreter v2.0/.idea/interpreter v2.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interpreter-Ji/.idea/Interpreter-Ji.iml" filepath="$PROJECT_DIR$/Interpreter-Ji/.idea/Interpreter-Ji.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PR301-Sarah/PR301-master/.idea/PR301-master.iml" filepath="$PROJECT_DIR$/PR301-Sarah/PR301-master/.idea/PR301-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/PycharmProjects.iml" filepath="$PROJECT_DIR$/.idea/PycharmProjects.iml" />
     </modules>
   </component>
 </project>
