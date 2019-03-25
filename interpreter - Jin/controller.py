@@ -1,12 +1,12 @@
 from module_builder.interpreter import Interpreter
 import sys
 import cmd
-import re  # Jin
-import shutil # Jin
-import datetime # Jin
-from module_builder.validator import Pep8Formatter # Jin
-from module_builder.pickle import Pickle #Jin
-# from filehandler.file_reader import FileReader
+import re
+import shutil
+import datetime
+from module_builder.validator import Pep8Formatter
+from module_builder.pickle import Pickle
+
 
 class Controller(cmd.Cmd):
     """Plant UML to Python Interpreter"""
@@ -99,6 +99,16 @@ class Controller(cmd.Cmd):
             print(f"{arg[0]}", "pickled")
 
     # Jin
+    def help_pickle(self):
+        print("""
+            ***
+            Pickles source file in to target file.                
+            Syntax : pickle <source file> <target file>                
+            Example : pickle test_uml test_uml.dat
+            ***            
+        """)
+
+    # Jin
     def do_unpickle(self, line):
         arg = self.file_path(line)
         if len(arg) == 1:
@@ -108,6 +118,16 @@ class Controller(cmd.Cmd):
             print(f"{arg[0]}", "unpickled")
         else:
             print("invalid command. must have 1 args")
+
+    # Jin
+    def help_unpickle(self):
+        print("""
+            ***
+            Unpickles the source file                
+            Syntax : unpickle <source file>                
+            Example : unpickle test_uml.dat
+            ***            
+        """)
 
     # Jin
     def do_convert(self, line):
