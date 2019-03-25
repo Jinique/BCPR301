@@ -1,0 +1,11 @@
+content of the file are 
+
+@startuml
+class Dummy {
+  String data
+  void methods()
+}
+@enduml
+
+test1
+
