@@ -1,1 +1,0 @@
-This folder is default location for generating output from the plant uml server.
