@@ -17,7 +17,8 @@ class Pep8Formatter:
         >>>
         """
         try:
-            subprocess.call("autopep8 --in-place --aggressive --aggressive " + line)
+            subprocess.call("autopep8 --in-place --aggressive --aggressive "
+                            + line)
         except FileNotFoundError:
             print("Requested file is not available")
         except Exception as e:
