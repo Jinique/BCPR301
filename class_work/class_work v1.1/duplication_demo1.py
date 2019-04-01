@@ -1,3 +1,21 @@
+# Refactoring Workbook Chapter 6 Duplication Challenge 1 (Exercise 14)
+
+# Step 1 - write DocTest in the existing code
+
+"""
+>>> get_times(interval=10, duration=10, departure=20)
+[10, 10, 20]
+>>> get_times(interval=0, duration=10, departure=20) # doctest: +ELLIPSIS
+Traceback (most recent call last):
+...
+MissingPropertiesException: monitor interval > 0
+>>> get_times(interval=0, duration=10, departure=20) # doctest: +ELLIPSIS
+Traceback (most recent call last):
+...
+MissingPropertiesException: monitor interval > 0
+"""
+
+
 class MissingPropertiesException(Exception):
     pass
 
@@ -36,6 +54,12 @@ def get_times(**kargs):
     return result
 
 
+def _test():
+    import doctest
+    doctest.testmod(verbose=True)
+
+
 if __name__ == "__main__":
+    _test()
     # print(get_times(interval=10, duration=50, departure=12))
-    print(get_times(interval=10, duration=10, departure=20))
+    # print(get_times(interval=10, duration=10, departure=20))
